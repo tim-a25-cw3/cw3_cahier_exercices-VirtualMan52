@@ -1,0 +1,19 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+    }
+
+    .logo {
+        color: white;
+        font-family: var(--font-secondary);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}

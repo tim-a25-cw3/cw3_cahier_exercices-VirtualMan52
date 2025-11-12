@@ -1,0 +1,9 @@
+.reactive {
+    background-color: var(--color-primary);
+    color: var(--color-black);
+
+    h2,
+    h2 span {
+        color: var(--color-black);
+    }
+}
