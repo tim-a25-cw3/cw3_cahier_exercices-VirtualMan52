@@ -1,9 +1,26 @@
 .reactive {
-    background-color: var(--color-primary);
-    color: var(--color-black);
+    .swiper {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
 
-    h2,
-    h2 span {
-        color: var(--color-black);
+    .swiper-pagination {
+        position: static;
+
+        --swiper-pagination-bullet-size: 20px;
+        --swiper-pagination-bullet-border-radius: 0px;
+        .swiper-pagination-bullet {
+            transform: rotate(45deg);
+        }
+        --swiper-pagination-color: var(--color-white);
+        --swiper-pagination-bullet-inactive-color: var(--color-black);
+        --swiper-pagination-bullet-inactive-opacity: 0.3;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: 30px;
     }
 }

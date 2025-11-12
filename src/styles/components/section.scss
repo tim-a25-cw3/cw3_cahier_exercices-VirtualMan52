@@ -3,5 +3,20 @@
 
     h2 {
         margin: 0 0 100px;
+
+        span {
+            font-weight: 600;
+            color: var(--color-white);
+        }
+    }
+}
+
+.section.alt {
+    color: var(--color-black);
+    background-color: var(--color-primary);
+
+    h2,
+    h2 span {
+        color: var(--color-black);
     }
 }

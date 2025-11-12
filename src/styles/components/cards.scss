@@ -16,6 +16,10 @@
 }
 
 .card__media {
+    width: 100%;
+    height: 100%;
+    max-height: 490px;
+
     img {
         width: 100%;
         height: 100%;
@@ -35,14 +39,10 @@
         text-transform: uppercase;
     }
 
-    p {
-        color: rgba(255, 255, 255, 0.55);
-    }
-
     .large {
         font-size: #{typo(32px, 24px)};
-        font-weight: 300;
         margin: 16px 0 24px;
+        color: rgba(255, 255, 255, 0.55);
 
         span {
             color: var(--color-white);
@@ -54,5 +54,15 @@
         font-size: #{typo(18px)};
         margin: 0 0 32px;
         text-transform: uppercase;
+    }
+}
+
+.alt .card__content {
+    .large {
+        color: var(--color-black);
+        span {
+            color: var(--color-black);
+            font-weight: 600;
+        }
     }
 }
