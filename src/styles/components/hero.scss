@@ -1,6 +1,10 @@
 .hero {
     position: relative;
     height: 80vh;
+    @media (width <= $breakpoint-md) {
+        height: 450px;
+        padding: 60px 0;
+    }
 
     .wrapper {
         display: flex;
@@ -26,5 +30,5 @@
 }
 
 .hero__content {
-    max-width: 633px;
+    max-width: min(633px, 70%);
 }

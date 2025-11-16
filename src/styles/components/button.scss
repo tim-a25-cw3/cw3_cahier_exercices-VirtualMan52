@@ -18,8 +18,27 @@
         width: 24px;
         height: 24px;
     }
+
+    &:hover {
+        background-color: var(--color-white);
+        text-decoration: none;
+        color: var(--color-black);
+    }
 }
 
 .button.inverted {
     background-color: var(--color-white);
+
+    &:hover {
+        background-color: var(--color-black);
+        color: var(--color-white);
+    }
+}
+
+.icon-button {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.55);
+    &:hover {
+        color: rgba(255, 255, 255, 1);
+    }
 }

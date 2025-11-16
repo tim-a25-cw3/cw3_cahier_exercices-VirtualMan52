@@ -12,9 +12,14 @@
     }
 
     .logo {
-        color: white;
+        color: var(--color-white);
         font-family: var(--font-secondary);
         text-transform: uppercase;
         font-weight: 600;
+
+        &:hover {
+            text-decoration: none;
+            color: var(--color-primary);
+        }
     }
 }

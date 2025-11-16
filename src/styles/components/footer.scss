@@ -1,6 +1,7 @@
 .footer {
     background-color: var(--color-black);
     color: var(--color-white);
+    text-align: center;
 
     .wrapper {
         display: flex;
@@ -14,10 +15,6 @@
     .icons {
         display: flex;
         gap: 56px;
-        .icon {
-            font-size: 3rem;
-            color: rgba(255, 255, 255, 0.55);
-        }
     }
 
     p {

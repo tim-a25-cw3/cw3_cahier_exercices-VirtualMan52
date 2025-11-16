@@ -21,6 +21,7 @@ class Main {
         pagination: {
           el: '.swiper-pagination',
         },
+        spaceBetween: 32,
       });
     }
   }
